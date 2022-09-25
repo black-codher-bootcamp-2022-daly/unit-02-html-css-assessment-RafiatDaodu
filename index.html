@@ -10,44 +10,55 @@
             <title>Rafiat Daodu Full Stack Developer</title>
             <link rel="icon" type="image/png" href="favicon.png">
             <link rel="stylesheet" type="text/css" href="Styles/main.css">
-            <style></style>
+            <style>
+                *{margin: 0; padding: 0;}
+                .background-image {background-image: url("blackmarblebackground.png"); height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover;}
+                body {color: #e2e5de}
+                h1 {color: #d8b759} 
+                h2 {color: #d8b759}
+                a:link {color: #d8b759; background-color: transparent; text-decoration: none; font-weight: bolder;}
+                a:visited {color: #b76e79; background-color: transparent; text-decoration: none;}
+                a:hover {color: #d8b759; background-color: transparent; text-decoration: underline; font-weight: bolder;}
+            </style>
         </head>
         <body>
-            <header>
-                <nav>
-                    <!--these should navigate to the correct section-->
-                    <a href="#home">HOME</a>
-                    <a href="#about">ABOUT</a>
-                    <a href="#work">WORK</a>
-                    <a href="#contact">CONTACT</a>
-                </nav>
-            </header>
-            <br>
-            <section class="Home">
-                <h1>Rafiat Daodu</h1>
-                <!--add photo and alt text-->
-                <img class="profile-img" src="holdingphoto.png" alt="photo of a black woman staring into the distance in a tropical location" width="200" height="200">
-            </section>
-            <section class="about-me">
-                <h3>About</h3>
-                <p>Hi I'm <strong>Rafiat Daodu</strong>, a junior developer based in London, UK.  <br>I am currently undertaking a 6 month full stack developer bootcamp with <a href="https://blackcodher.com/" target="_blank">Black Codher</a> and I am due to graduate in early spring 2023.  <br><!--add elements from cc--></p>
-            </section>
-            <section class="projects">
-                <h3>Work</h3>
-                <ul class="projects">
-                    <li><a href="" target="_blank">Lisa Folawiyo Fan Page</a></li>
-                    <li><a href="" target="_blank">JavaScript group project</a></li>
-                    <li><a href="" target="_blank">React project</a></li>
-                    <li><a href="" target="_blank">Node project</a></li>
-                    <li><a href="" target="_blank">MongoDB project</a></li>
-                    <li><a href="" target="_blank">Personal project</a></li>
-                </ul>
-            </section>
-            <footer>
-                <ul class="social-media">
-                    <li>My <a href="https://github.com/RafiatDaodu" target="_blank">GitHub</a></li>
-                    <li>My <a href="https://uk.linkedin.com/" target="_blank">LinkedIn</a></li>
-                </ul>
-            </footer>
+            <div class="background-image">
+                <header>
+                    <nav>
+                        <!--these should navigate to the correct section-->
+                        <a href="#home">HOME</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#work">WORK</a>
+                        <a href="#contact">CONTACT</a>
+                    </nav>
+                </header>
+                <section class="Home">
+                    <h1>Rafiat Daodu</h1>
+                    <!--add photo and alt text-->
+                        <img class="profile-img" src="holdingphoto.png" alt="photo of a black woman staring into the distance in a tropical location" width="200" height="200">
+                </section>
+                <section class="about-me">
+                    <h2>About</h2>
+                        <p>Hi I'm <strong>Rafiat Daodu</strong>, a junior developer based in London, UK.  <br>I am currently undertaking a 6 month full stack developer bootcamp with <a href="https://blackcodher.com/" target="_blank">Black Codher</a> and I am due to graduate in early spring 2023.  <br><!--add elements from cc--></p>
+                </section>
+                <section class="projects">
+                    <h2>Work</h2>
+                        <ul class="projects">
+                            <li><a href="" target="_blank">Lisa Folawiyo Fan Page</a></li>
+                            <li><a href="" target="_blank">JavaScript group project</a></li>
+                            <li><a href="" target="_blank">React project</a></li>
+                            <li><a href="" target="_blank">Node project</a></li>
+                            <li><a href="" target="_blank">MongoDB project</a></li>
+                            <li><a href="" target="_blank">Personal project</a></li>
+                        </ul>
+                </section>
+                <footer>
+                    <h2>Contact Me</h2>
+                        <ul class="social-media">
+                            <li>My <a href="https://github.com/RafiatDaodu" target="_blank">GitHub</a></li>
+                            <li>My <a href="https://uk.linkedin.com/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                </footer>
+            </div>
         </body>
     </html>
