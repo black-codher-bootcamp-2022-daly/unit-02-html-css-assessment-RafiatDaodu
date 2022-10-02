@@ -1,105 +1,115 @@
 * {
     margin: 0; 
     padding: 0;
-    font-family: ;
     box-sizing: border-box;
 }
+
 body {
-    height: 400vh;
-    width: 150%;
-    background-image: url(../blackmarblebackground.png); 
-    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-image: url(../blackmarblebackground.png);
     background-size: cover;
     background-position: center;
-    
+    color: #d8b759;
+    font-size: 30px;
+    cursor: pointer;
 }
-nav {
+
+.nav {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: space-evenly;
     padding-top: 50px;
+    padding-left: 50px;
     padding-right: 50px;
-    font-weight: bolder
 }
-nav a:link {
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 50px;
+}
+
+nav ul li a:link {
     color: #d8b759; 
     background-color: transparent; 
     text-decoration: none; 
     font-weight: bolder;
 }
-nav a:hover {
-    color: #d8b759; 
-    background-color: transparent; 
-    text-decoration: underline; 
-    font-size: 40px; 
-    font-weight: bolder;
-}
-nav a:active {
-    color: #d8b759; 
-    background-color: transparent; 
-    text-decoration: none; 
-    font-weight: bolder;
-}
-nav a:visited {
-    color: #d8b759; 
-    background-color: transparent; 
-    text-decoration: underline; 
-    font-weight: bolder;
-}
-.title-page {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    padding: auto;
-}
-body {
+
+nav ul li a:hover {
     color: #e2e5de; 
-    font-size: large;
-}
-h1 {
-    color: #d8b759; 
-    text-align: center; 
-    font-size: 50px; 
-    font-weight: bolder;
-} 
-.profile-img {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-h2 {
-    color: #d8b759; 
-    text-align: center; 
+    background-color: transparent; 
+    text-decoration: underline; 
     font-size: 40px; 
     font-weight: bolder;
+    transition: 1s;
 }
-p {
-    text-align: center; 
+
+.about-me {
+    width: 100%;
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-me img {
+    height: auto;
+    width: 50%;
+}
+.about-text {
+    width: 550px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.about-text h2 {
+    color: #d8b759;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 25px;
+}
+
+.about-text p {
+    color:#e2e5de;
     font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
-ul {
-    text-align: center; 
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work {
+    height: 100%;
+    background-image: url(../blackmarblebackground.png); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work h2 {
+    color: #d8b759;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 25px;
+}
+
+.work ul li {
+    color: #d8b759
     font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
-a:link {
-    color: #d8b759; 
-    text-decoration: none; 
-    font-weight: bolder;
-}
-a:hover {
-    color: #d8b759; 
-    text-decoration: underline; 
-    font-size: 30px; 
-    font-weight: bolder;
-}
-a:active {
-color: #d8b759; 
-text-decoration: none; 
-font-weight: bolder;
-}
-a:visited {
-color: #d8b759; 
-text-decoration: underline; 
-font-weight: bolder;
-}
-.logo {}
