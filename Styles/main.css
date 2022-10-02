@@ -1,16 +1,24 @@
 * {
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
+    font-family: ;
+    box-sizing: border-box;
 }
-.background-image {
-    background-image: url("blackmarblebackground.png"); 
-    height: 350vh; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+body {
+    height: 400vh;
+    width: 150%;
+    background-image: url(../blackmarblebackground.png); 
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    
 }
 nav {
-    text-align: right; 
-    padding: 25px 25px; 
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-top: 50px;
+    padding-right: 50px;
     font-weight: bolder
 }
 nav a:link {
@@ -94,3 +102,4 @@ color: #d8b759;
 text-decoration: underline; 
 font-weight: bolder;
 }
+.logo {}
