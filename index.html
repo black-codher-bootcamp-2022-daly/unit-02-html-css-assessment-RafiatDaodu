@@ -6,36 +6,40 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="desription" content="A web development portfolio for Rafiat Daodu, a junior full stack developer.">
             <meta name="author" content="Rafiat Daodu">
-            <meta name="keywords" content="full stack, junior, web developer, portfolio">
+            <meta name="keywords" content="full stack, junior, web developer, portfolio, rafiat daodu">
             <title>Rafiat Daodu's Portfolio</title>
             <link rel="icon" type="image/png" href="favicon.png">
             <link rel="stylesheet" type="text/css" href="Styles/main.css">
         </head>
         <body>
-            <div class="landing page">
+            <!-- Add horizontal scroll snapping between sections.-->
+            <header>
+                <!--Fix the broken anhor links-->
                 <nav>
-                    <ul>
-                        <li><a href="#landing-page">Home</a></li>
-                        <li><a href="#about-me">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#social-media">Contact</a></li>
-                    </ul>
+                    <a href="#landing-page">Home</a>
+                    <a href="#2">About</a>
+                    <a href="#work">Projects</a>
+                    <a href="#social-me">Contact</a>
                 </nav>
-                <img class="logo" src="blackgoldlogotransparent.png">
-            </div>
+            </header>
+            <section class="landing-page">
+                <img class="logo" src="Images/blackgoldlogotransparent.png">
+            </section>
             <section class="about-me">
                 <div class="about">    
-                    <img class="profile-img" src="holdingphoto.png">
+                    <img class="profile-img" src="Images/me.JPG" alt="Rafiat Daodu is">
                     <div class="about-text">
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
+                        <!-- Need to add more information -->
                         <p>Hi, I'm Rafiat Daodu. A junior developer from London, UK.  I'm on a 6 month full stack developer bootcamp with <a href="https://blackcodher.com/" target="_blank">Black Codher</a> and will graduate in early spring 2023.</p>
                     </div>
                 </div>
             </section>
             <section class="work">
-                <h2>Projects</h2>
+                <h1>Projects</h1>
+                <!-- Update once names of projects have been finalised -->
                 <ul class="projects">
-                    <li><a href="" target="_blank">Lisa Folawiyo Fan Page</a></li>
+                    <li><a href="https://github.com/black-codher-bootcamp-2022-daly/FanPageRafiatDaodu/blob/main/LisaFolawiyoFanPage.html" target="_blank">Lisa Folawiyo Fan Page</a></li>
                     <li><a href="" target="_blank">JavaScript group project</a></li>
                     <li><a href="" target="_blank">React project</a></li>
                     <li><a href="" target="_blank">Node project</a></li>
@@ -43,5 +47,15 @@
                     <li><a href="" target="_blank">Personal project</a></li>
                 </ul>
             </section>
+            <footer>
+                <h1>Rafiat Daodu</h1>
+                <p>Let's keep in touch. You can find me at these places:</p>
+                <ul>
+                <!-- Create LinkedIn page and contact me form. Also create gold icons that work in theme-->
+                    <li><a href="https://github.com/RafiatDaodu" target="_blank"><img src="Images/github.jpg" alt="GitHub" width="50" height="50"></a></li>
+                    <li><a href="https://github.com/RafiatDaodu" target="_blank"><img src="Images/linkedin.png" alt="LinkedIn" width="50" height="50"></a></li>
+                    <li><a href="https://github.com/RafiatDaodu" target="_blank"><img src="Images/email.png" alt="Email" width="50" height="50"></a></li>
+                </ul>
+            </footer>
         </body>
     </html>
