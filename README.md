@@ -1,4 +1,4 @@
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64c0489a-9980-4884-979a-7085807d0b36/deploy-status)](https://app.netlify.com/sites/rafiatdaodu/deploys)
 
 # HTML and CSS Assessment
 
@@ -30,7 +30,7 @@ You are free to add more content and style it anyway you want. Below is some [ex
 2. Create external stylesheet at `styles/main.css`
     1. Must be linked from `index.html`
     2. Import at least one font
-3. [Deployed to Netlify](https://docs.netlify.com/site-deploys/create-deploys/) and your [![Netlify Status](https://api.netlify.com/api/v1/badges/64c0489a-9980-4884-979a-7085807d0b36/deploy-status)](https://app.netlify.com/sites/rafiatdaodu/deploys) added to this file (`README.md`)
+3. [Deployed to Netlify](https://docs.netlify.com/site-deploys/create-deploys/) and your sites [site's status badge](https://docs.netlify.com/monitor-sites/status-badges/) added to this file (`README.md`)
 
 ## How to submit
 
