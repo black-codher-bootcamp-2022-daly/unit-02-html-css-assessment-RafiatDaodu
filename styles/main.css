@@ -9,7 +9,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url(../Images/blackmarblebackground.png);
+    background-image: url(../images/blackmarblebackground.png);
     background-size: cover;
     background-position: center;
     color: #e2e5de;
@@ -58,11 +58,29 @@ nav {
     padding: 25px;
 }
 
+h1 {color: #d8b759;
+    font-size: 300px;
+    font-family: 'Comforter', cursive;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 15px;
+    padding-left: 50px;
+}
+
+h2 {color: #e2e5de;
+    font-size: 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: right;
+    letter-spacing: 1px;
+    margin: 15px;
+    padding-right: 50px;
+}
+
+
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
 }
 
 .about-me {
@@ -113,7 +131,7 @@ nav {
 .work {
     height: 100%;
     width: 100%;
-    background-image: url(../Images/blackmarblebackground.png); 
+    background-image: url(../images/blackmarblebackground.png); 
     background-size: cover;
     background-position: center;
     padding-top: 50px;
