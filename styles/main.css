@@ -81,6 +81,7 @@ h2 {color: #e2e5de;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .about-me {
@@ -111,7 +112,7 @@ h2 {color: #e2e5de;
     padding-right: 50px;
 }
 
-.about-text h1 {
+.about-text h3 {
     color: #d8b759;
     font-size: 150px;
     font-family: 'Comforter', cursive;
@@ -140,7 +141,7 @@ h2 {color: #e2e5de;
     padding-right: 50px;
 }
 
-.work h1 {
+.work h3 {
     color: #d8b759;
     font-size: 150px;
     font-family: 'Comforter', cursive;
@@ -169,7 +170,7 @@ footer {
     justify-content: center; 
 }
 
-footer h1 {
+footer h4 {
     color: #d8b759;
     font-size: 30px;
     font-family: 'Comforter', cursive;
